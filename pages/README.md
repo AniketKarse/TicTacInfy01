@@ -1,0 +1,1 @@
+<!-- includes all the pages of the site  -->
