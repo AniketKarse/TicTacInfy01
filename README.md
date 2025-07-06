@@ -1,3 +1,16 @@
+# Just a (infinite) bit more than a Normal TicTacToe game
+
+```bash
+Rules are Simple
+No Draws!
+Play until someone wins or Gives Up!
+Simple Right?
+
+```
+# Logic
+
+After every third move the first move disappears for both the player , so the game goes on till someone wins it all
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
