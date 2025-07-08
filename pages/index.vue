@@ -30,9 +30,11 @@ const submitName = () => {
 
 <template>
     <NuxtLayout>
-        <div>
+        <!-- <div>
         This is suppose to be the Login page!
-        </div>
+        </div> -->
+
+        
         <div>
             <h3>Player 1 Name - </h3>
             <UInput v-model="player1Name" color="neutral" highlight placeholder="Enter P1 Name..." />
@@ -44,9 +46,19 @@ const submitName = () => {
         </div>
 
     <div >
-      <button class="audioWide" @click.stop="submitName()">Let's Play</button>
+      <UButton class="audioWide" @click.stop="submitName()">Let's Play</UButton>
     </div>
 
     </NuxtLayout>
    
 </template>
+
+<style>
+
+.center {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+</style>
