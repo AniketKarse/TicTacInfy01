@@ -29,7 +29,7 @@ const submitName = () => {
 </script>
 
 <template>
-    <NuxtLayout>
+    <NuxtLayout> 
         <!-- <div>
         This is suppose to be the Login page!
         </div> -->
